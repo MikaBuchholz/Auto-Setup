@@ -10,7 +10,7 @@ class WebdevSetup():
         self.path: Union[str, None] = path
         self.packages: Union[List[str], None] = packages
         self.defaultCommands: List[str] = [
-            'npm init -y', 'npm i node', 'npm i dotenv', 'npm i epxress']
+            'npm init -y', 'npm i node', 'npm i dotenv', 'npm i express']
         self.defaultFiles: List[str] = ['.env', '.gitignore', 'README.md', 'server.js',
                                         'public/index.html', 'public/client.js', 'public/css/styles.css']
         self.defaultFolders: List[str] = ['public', 'public/css']
